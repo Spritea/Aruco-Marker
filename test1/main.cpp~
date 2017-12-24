@@ -1,0 +1,8 @@
+#include "opencv2/opencv.hpp"
+using namespace cv;
+int main()
+{
+	Mat img=cv::imread("1.jpg");
+	imshow("dsds",img);
+	waitKey(0);
+}
